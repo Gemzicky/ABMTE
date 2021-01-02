@@ -53,7 +53,7 @@
         "city": "sea",
         "state": "virtual",
         "id": 4,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "ocean",
         "coordinates": {
@@ -69,7 +69,7 @@
         "city": "sea",
         "state": "virtual",
         "id": 5,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "ocean",
         "coordinates": {
@@ -85,7 +85,7 @@
         "city": "sea",
         "state": "virtual",
         "id": 6,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "ocean",
         "coordinates": {
@@ -101,7 +101,7 @@
         "city": "region",
         "state": "virtual",
         "id": 7,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "land",
         "coordinates": {
@@ -117,7 +117,7 @@
         "city": "region",
         "state": "virtual",
         "id": 8,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "land",
         "coordinates": {
@@ -133,7 +133,7 @@
         "city": "sea",
         "state": "virtual",
         "id": 9,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "ocean",
         "coordinates": {
@@ -149,7 +149,7 @@
         "city": "sea",
         "state": "virtual",
         "id": 10,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "ocean",
         "coordinates": {
@@ -165,7 +165,7 @@
         "city": "sea",
         "state": "virtual",
         "id": 11,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "ocean",
         "coordinates": {
@@ -181,7 +181,7 @@
         "city": "sea",
         "state": "virtual",
         "id": 12,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "ocean",
         "coordinates": {
@@ -197,7 +197,7 @@
         "city": "outside",
         "state": "virtual",
         "id": 13,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "universe",
         "coordinates": {
@@ -213,7 +213,7 @@
         "city": "region",
         "state": "virtual",
         "id": 14,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "land",
         "coordinates": {
@@ -229,7 +229,7 @@
         "city": "region",
         "state": "virtual",
         "id": 15,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "land",
         "coordinates": {
@@ -245,7 +245,7 @@
         "city": "region",
         "state": "virtual",
         "id": 16,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "land",
         "coordinates": {
@@ -261,7 +261,7 @@
         "city": "big",
         "state": "virtual",
         "id": 17,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "state",
         "coordinates": {
@@ -277,7 +277,7 @@
         "city": "region",
         "state": "virtual",
         "id": 18,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "land",
         "coordinates": {
@@ -293,7 +293,7 @@
         "city": "big",
         "state": "virtual",
         "id": 19,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "state",
         "coordinates": {
@@ -309,7 +309,7 @@
         "city": "sea",
         "state": "virtual",
         "id": 20,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "ocean",
         "coordinates": {
@@ -325,7 +325,7 @@
         "city": "sea",
         "state": "virtual",
         "id": 21,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "ocean",
         "coordinates": {
@@ -341,7 +341,7 @@
         "city": "sea",
         "state": "virtual",
         "id": 22,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "ocean",
         "coordinates": {
