@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct ABMTEApp: App {
+struct LandmarksApp: App {
+    @StateObject private var modelData = ModelData()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }

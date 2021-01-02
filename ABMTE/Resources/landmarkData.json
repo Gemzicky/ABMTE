@@ -22,7 +22,7 @@
         "state": "virtual",
         "id": 2,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "ocean",
         "coordinates": {
             "longitude": 39.2309122,
@@ -38,7 +38,7 @@
         "state": "virtual",
         "id": 3,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "land",
         "coordinates": {
             "longitude": 29.2309122,
@@ -118,7 +118,7 @@
         "state": "virtual",
         "id": 8,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "land",
         "coordinates": {
             "longitude": 43.2309122,
@@ -134,7 +134,7 @@
         "state": "virtual",
         "id": 9,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "ocean",
         "coordinates": {
             "longitude": 41.2309122,
@@ -166,7 +166,7 @@
         "state": "virtual",
         "id": 11,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "ocean",
         "coordinates": {
             "longitude": 29.2309122,
@@ -182,7 +182,7 @@
         "state": "virtual",
         "id": 12,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "ocean",
         "coordinates": {
             "longitude": 45.2309122,
@@ -198,7 +198,7 @@
         "state": "virtual",
         "id": 13,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "universe",
         "coordinates": {
             "longitude": 23.2309122,
@@ -214,7 +214,7 @@
         "state": "virtual",
         "id": 14,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "land",
         "coordinates": {
             "longitude": 32.2309122,
@@ -246,7 +246,7 @@
         "state": "virtual",
         "id": 16,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "land",
         "coordinates": {
             "longitude": 49.2309122,
@@ -294,7 +294,7 @@
         "state": "virtual",
         "id": 19,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "state",
         "coordinates": {
             "longitude": 7.2309122,
@@ -310,7 +310,7 @@
         "state": "virtual",
         "id": 20,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "ocean",
         "coordinates": {
             "longitude": 4.2309122,
@@ -342,7 +342,7 @@
         "state": "virtual",
         "id": 22,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "ocean",
         "coordinates": {
             "longitude": 9.2309122,
