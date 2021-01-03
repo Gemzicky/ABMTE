@@ -43,6 +43,7 @@
 		AD95178A25A12D7700658CDF /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95178925A12D7700658CDF /* ProfileSummary.swift */; };
 		AD95178D25A12DBA00658CDF /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95178C25A12DBA00658CDF /* HikeBadge.swift */; };
 		AD95179025A12F1400658CDF /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95178F25A12F1400658CDF /* ProfileEditor.swift */; };
+		AD96EFC225A22630002197E3 /* ABMTE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD96EFC025A2262F002197E3 /* ABMTE.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		AD95178925A12D7700658CDF /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		AD95178C25A12DBA00658CDF /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		AD95178F25A12F1400658CDF /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		AD96EFC125A22630002197E3 /* ABMTE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ABMTE.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				AD95171D25A0BC0A00658CDF /* Assets.xcassets */,
 				AD95172225A0BC0A00658CDF /* Info.plist */,
 				AD95171F25A0BC0A00658CDF /* Preview Content */,
+				AD96EFC025A2262F002197E3 /* ABMTE.xcdatamodeld */,
 			);
 			path = ABMTE;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD95177D25A128CF00658CDF /* CategoryRow.swift in Sources */,
+				AD96EFC225A22630002197E3 /* ABMTE.xcdatamodeld in Sources */,
 				AD95178325A12D2E00658CDF /* Profile.swift in Sources */,
 				AD95171C25A0BC0300658CDF /* ContentView.swift in Sources */,
 				AD95177825A1272000658CDF /* CategoryHome.swift in Sources */,
@@ -534,6 +538,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD96EFC025A2262F002197E3 /* ABMTE.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD96EFC125A22630002197E3 /* ABMTE.xcdatamodel */,
+			);
+			currentVersion = AD96EFC125A22630002197E3 /* ABMTE.xcdatamodel */;
+			path = ABMTE.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AD95170E25A0BC0300658CDF /* Project object */;
 }

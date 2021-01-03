@@ -50,6 +50,7 @@ struct ProfileSummary: View {
                     HikeView(hike: modelData.hikes[0])
                 }
             }
+            .padding()
         }
     }
 }

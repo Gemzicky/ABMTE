@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H114" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Profiles" representedClassName="Profiles" syncable="YES" codeGenerationType="class">
+        <attribute name="goalDate" optional="YES" attributeType="Date" defaultDateTimeInterval="631383720" usesScalarValueType="NO"/>
+        <attribute name="prefersNotifications" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="seasonalPhoto" optional="YES" attributeType="String" defaultValueString="summer"/>
+        <attribute name="username" optional="YES" attributeType="String" defaultValueString="user"/>
+    </entity>
+    <elements>
+        <element name="Profiles" positionX="-54" positionY="-9" width="128" height="103"/>
+    </elements>
+</model>

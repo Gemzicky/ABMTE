@@ -47,6 +47,8 @@ struct HikeGraph: View {
                         range: observation[keyPath: path],
                         overallRange: overallRange)
                         .colorMultiply(color)
+                        .transition(.slide)
+                        .animation(.ripple(index: index))
                 }
                 .offset(x: 0, y: proxy.size.height * heightRatio)
             }
@@ -55,7 +57,7 @@ struct HikeGraph: View {
 }
 
 func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
-    where C.Element == Range<Double> {
+where C.Element == Range<Double> {
     guard !ranges.isEmpty else { return 0..<0 }
     let low = ranges.lazy.map { $0.lowerBound }.min()!
     let high = ranges.lazy.map { $0.upperBound }.max()!
