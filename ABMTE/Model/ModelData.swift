@@ -31,12 +31,15 @@ final class ModelData: ObservableObject {
             by: { $0.category.rawValue }
         )
     }
+
+    var loadCats: () = loadREST(urls: "https://cat-fact.herokuapp.com/facts/")
+    var cats: [Cat] = load("myFile.json")
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 
-    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+    guard let file = Bundle.main.url(forResource: filename, withExtension: nil) ?? FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent(filename)
     else {
         fatalError("Couldn't find \(filename) in main bundle.")
     }
@@ -53,4 +56,40 @@ func load<T: Decodable>(_ filename: String) -> T {
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
+}
+
+func loadREST(urls: String) {
+    let url = URL(string: urls)!
+    let request = URLRequest(url: url)
+    URLSession.shared.dataTask(with: request) { (data, response, error) in
+        if let error = error {
+            print("Error loading data! \n\(error)")
+            return
+        }
+        if let response = response as? HTTPURLResponse {
+            let statusCode = response.statusCode
+            if statusCode != 200 {
+                print("\(url.absoluteString) returned bad status code: \(statusCode)!")
+            } else {
+                guard let data = data,
+                      let medium = String(data: data, encoding: .utf8)
+                else { return }
+                let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+                let fileURL = URL(fileURLWithPath: "myFile", relativeTo: directoryURL).appendingPathExtension("json")
+                do {
+                    try medium.write(to: fileURL, atomically: false, encoding: String.Encoding.utf8)
+//                    print("File saved: \(fileURL.absoluteURL)")
+                } catch {
+                    print(error.localizedDescription)
+                }
+            }
+        }
+    }.resume()
+}
+
+public func randomCat() -> String {
+    var i: Int
+    let c = ModelData().cats.count
+    i = Int.random(in: 1..<100) % c
+    return ModelData().cats[i].text
 }

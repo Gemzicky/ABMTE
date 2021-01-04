@@ -14,6 +14,10 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
+                HStack {
+                    Text("Cat fact: ").bold()
+                    Text(randomCat())
+                }
                 PageView(pages: modelData.features.map { FeatureCard(landmark: $0) })
                     .aspectRatio(3 / 2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
